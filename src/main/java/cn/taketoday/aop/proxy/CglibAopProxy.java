@@ -52,6 +52,7 @@ import cn.taketoday.logging.LoggerFactory;
 import cn.taketoday.util.ClassUtils;
 import cn.taketoday.util.ObjectUtils;
 import cn.taketoday.util.ReflectionUtils;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * CGLIB-based {@link AopProxy} implementation for the AOP framework.
