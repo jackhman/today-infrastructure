@@ -25,8 +25,6 @@ import org.apache.commons.logging.Log;
 import java.util.List;
 import java.util.function.Predicate;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * Implementation of {@link Log} that wraps a list of loggers and delegates
  * to the first one for which logging is enabled at the given level.
@@ -35,7 +33,6 @@ import lombok.extern.slf4j.Slf4j;
  * @see LogDelegateFactory#getCompositeLog
  * @since 4.0
  */
-@Slf4j
 final class CompositeLogger extends Logger {
   private static final Logger NO_OP_LOG = new NoOpLogger();
 
